@@ -1,15 +1,17 @@
-
 /**
  *  Modela una fecha
  *  
- *  @author - 
+ *  @author -   Alex Calderón
  */
 public class Fecha
 {
+    //Atributos
+        //Constantes
+        //Variables
     private int dia;
     private int mes;
     private int año;
-
+    
     /**
      * constructor  
      */
@@ -18,7 +20,6 @@ public class Fecha
         this.dia = dia;
         this.mes = mes;
         this.año = año;
-
     }   
 
     /**
@@ -74,8 +75,10 @@ public class Fecha
      * Devuelve una copia exacta al objeto actual
      */
     public Fecha obtenerCopia() {
-         return null;
-
+        this.dia = dia;
+        this.mes = mes;
+        this.año = año;
+        return null;
     }
 
     /**
